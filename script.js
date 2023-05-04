@@ -82,7 +82,7 @@ async function RenderNextSentence(){
 
 // タイマー処理
 let startTime;
-let originTime = 5;
+let originTime = 30;
 function StartTimer(){
   timer.innerText= originTime;
   startTime = new Date();
